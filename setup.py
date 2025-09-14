@@ -15,6 +15,7 @@ setup(name='unitree_sdk2py',
       python_requires='>=3.8',
       install_requires=[
             "cyclonedds==0.10.2",
+            "fastcrc>=0.3.2",
             "numpy",
             "opencv-python",
       ],
